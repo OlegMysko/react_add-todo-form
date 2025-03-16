@@ -60,3 +60,5 @@ export default [
     email: 'Rey.Padberg@karina.biz',
   },
 ];
+
+
