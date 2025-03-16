@@ -4,8 +4,8 @@ interface Props {
   userId: number;
   users: User[];
 }
-export const UserInfo:React.FC<Props> = ({ userId , users}) => {
-  const user = users.find((u) => u.id === userId);
+export const UserInfo: React.FC<Props> = ({ userId, users }) => {
+  const user = users.find(u => u.id === userId);
 
   if (!user) {
     return <span>Unknown user</span>;
